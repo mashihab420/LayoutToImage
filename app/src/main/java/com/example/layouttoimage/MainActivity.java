@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 int color = R.color.red;
 
-              //  relativeLayout.setBackgroundColor(Color.parseColor("#F01306"));
+               relativeLayout.setBackgroundColor(Color.parseColor("#F01306"));
                 textView.setTextColor(Color.parseColor("#F01306"));
 
             }

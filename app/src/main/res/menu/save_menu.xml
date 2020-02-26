@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/share_photos"
+        android:icon="@drawable/ic_share"
+        app:showAsAction="ifRoom"
+        android:title="Share" />
+
+    <item
+        android:id="@+id/copy_text"
+        android:icon="@drawable/ic_copy"
+        app:showAsAction="ifRoom"
+        android:title="copy" />
+
+    <item
+        android:id="@+id/save_photos"
+        android:icon="@drawable/ic_save"
+        app:showAsAction="ifRoom"
+        android:title="save" />
+
+
+</menu>
